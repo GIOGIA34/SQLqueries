@@ -11,3 +11,4 @@ AND city IN (Aurora, 'ACua', "Citrus Heights', 'Iwaki', "Ambatur')
 GROUP BY D.country, C.city, A.firt_name, A.last_name, E.customer_id
 ORDER BY Total_Amount-Paid desc
 LIMIT 5
+
